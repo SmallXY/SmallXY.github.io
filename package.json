@@ -1,0 +1,44 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.0",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.0",
+    "@vue/cli-plugin-eslint": "^5.0.0",
+    "@vue/cli-service": "^5.0.0",
+    "webpack": "^5.0.0",
+    "babel-loader": "^8.0.0",
+    "vue-loader": "^16.0.0",
+    "vue-template-compiler": "^3.2.13"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
