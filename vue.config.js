@@ -36,4 +36,5 @@ module.exports = defineConfig({
     overlay: true, // 在浏览器中显示错误
     clientLogLevel: 'debug', // 启用调试日志
   },
+  outputDir: 'docs' // 指定输出目录为docs
 })
